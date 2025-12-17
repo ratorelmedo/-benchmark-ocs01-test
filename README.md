@@ -1,56 +1,21 @@
-**ocs01-test**
+Hi Dev,
 
-rust cli for testing ocs01 smart contract
+I have been participating in the testnet, and here are the reports of the activities I have done
+____________________________________________________________________________________________
+My address: oct8AnYLLZCyx3JdRci76FfRk2i9sgT1XtTScbXBqLgbvsK
 
-**what it does**
+____________________________________________________________________________________________
 
--   tests all ocs01 contract methods
--   interactive menu for easy navigation
--   shows results instantly for view methods
--   handles tx signing for call methods
+Benchmark ocs01-test
 
-**works on**
+1. OCS01 Benchmark 1
+- Total TX: 20
+- Total duration: 1202s
+- SHA-256:29928edba29ccbf582a93d2f00baf886014fd335b6e21de7a54da84f9d231091  benchmark1.log
 
--   linux
--   macos
--   windows
+2. OCS01 Benchmark 2
+- Total TX: 120
+- Total duration: 1312s
+- SHA-256: 60f0b790344bad388e8585c41f6e25f4d60878eba3382b3b10c2bea17171e023  benchmark2.log
 
-**install rust (if not installed)**
-
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
-```
-
-**build from source**
-
-```bash
-git clone https://github.com/octra-labs/ocs01-test.git
-cd ocs01-test
-cargo build --release
-```
-
-**setup**
-
-```bash
-# copy contract interface
-cp EI/exec_interface.json .
-```
-
-**required files in same directory**
-
--   wallet.json - create with your credentials
--   exec_interface.json - copy from EI/ folder
-
-**run**
-
-you must copy the release binary to your cli folder and also copy the EI file (execution interface file) to the same location 
-
-the release binary is located in this folder after successful build. 
-```bash
-./target/release/ocs01-test
-```
-
-*for this task the ei file contains the interface for contract at address octBUHw585BrAMPMLQvGuWx4vqEsybYH9N7a3WNj1WBwrDn, do not modify it*
-
-after running, follow the menu to interact with the contract
+____________________________________________________________________________________________
